@@ -1,0 +1,20 @@
+[package]
+name = "cosmnia"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+description = "A COSMIC panel applet that keeps your computer awake"
+repository = "https://github.com/phoscoder/cosmnia"
+
+[dependencies]
+zbus = { version = "5", default-features = false, features = ["tokio"] }
+
+[dependencies.libcosmic]
+git = "https://github.com/pop-os/libcosmic"
+rev = "12ae9ef3a8b9e36e6fb8459444341b680c2ccc7a"
+default-features = false
+features = ["applet", "tokio", "wayland", "dbus-config"]
+
+[profile.release]
+opt-level = 3
+lto = "thin"
