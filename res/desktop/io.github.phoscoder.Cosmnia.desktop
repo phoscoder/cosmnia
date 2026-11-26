@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Cosmnia
+Comment=Keep your computer awake
+Type=Application
+Exec=cosmnia
+Icon=io.github.phoscoder.Cosmnia-symbolic
+Terminal=false
+Categories=COSMIC;
+Keywords=COSMIC;Iced;caffeine;awake;sleep;inhibit;
+NoDisplay=true
+StartupNotify=true
+X-CosmicApplet=true
+X-CosmicHoverPopup=Auto
+X-OverflowPriority=10
+X-OverflowMinSize=6
