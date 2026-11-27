@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="cup" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fdf6ec"/>
+      <stop offset="1" stop-color="#e8d6bf"/>
+    </linearGradient>
+    <linearGradient id="coffee" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a5a3b"/>
+      <stop offset="1" stop-color="#5b3722"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="#b9a38c" stroke-width="5" stroke-linecap="round">
+    <path d="M44 10c-6 7 6 13 0 21M62 6c-6 7 6 13 0 21M80 10c-6 7 6 13 0 21"/>
+  </g>
+  <ellipse cx="62" cy="118" rx="52" ry="6" fill="#000" opacity=".15"/>
+  <path d="M95 52h7a17 17 0 0 1 0 34h-10" fill="none" stroke="#e8d6bf" stroke-width="9" stroke-linecap="round"/>
+  <path d="M14 42h96v38a32 32 0 0 1-32 32H46a32 32 0 0 1-32-32z" fill="url(#cup)" stroke="#c9b398" stroke-width="2"/>
+  <ellipse cx="62" cy="42" rx="48" ry="8" fill="url(#coffee)" stroke="#c9b398" stroke-width="2"/>
+  <ellipse cx="54" cy="40" rx="14" ry="2.5" fill="#c08a5f" opacity=".6"/>
+</svg>
