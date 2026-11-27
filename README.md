@@ -1,5 +1,7 @@
+<p align="center"><img src="res/icons/io.github.phoscoder.Cosmnia.svg" width="128" alt="Cosmnia coffee cup"></p>
 <h2 align="center">Cosmnia</h2>
-<p align="center"><em>A coffee cup in your COSMIC™ panel that keeps your computer awake.</em></p>
+<p align="center"><strong>Your COSMIC™ desktop, wide awake. One cup at a time. ☕</strong></p>
+<p align="center"><em>A coffee cup in your panel: fill it and your computer never sleeps, empty it and it can rest.</em></p>
 
 ## Usage
 
